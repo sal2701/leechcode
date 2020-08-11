@@ -5,6 +5,15 @@ I have created a Google Sheet using this data, this might be useful for last mom
 
 [:link: The Google Sheet](https://docs.google.com/spreadsheets/d/1KfZq_onP06UDqizkLOjraOfw2qIODDqMyd-3knUu3hA/edit?usp=sharing)
 
+### How to use this sheet?
+
+- First of all ```Make a copy``` of the sheet from the ```File``` option.
+- I have sorted the values according to the Wilson Score [[Source](https://www.evanmiller.org/how-not-to-sort-by-average-rating.html)] which is a better metric to rate something compared to a simple ratio.
+- All the best for your interviews!
+
+
+## Using the script
+If you want to try this out on your own, keep reading.
 
 ### How to use the script?
 We basically need to send requests to the server as an authenticated user so we have to find those details.
@@ -19,6 +28,6 @@ We basically need to send requests to the server as an authenticated user so we 
 - Run the code ```python3 leech.py```.
 
 
+### How to edit/clean the data?
+Use the [Pandas](https://pandas.pydata.org/) library to modify the data as it is very convenient.
 
-### How to edit the data?
-Use the Pandas library to modify the data as it is very convenient.
