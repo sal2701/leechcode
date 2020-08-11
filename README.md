@@ -12,7 +12,7 @@ I have created a Google Sheet using this data, this might be useful for last mom
 - All the best for your interviews!
 
 
-## Using the script
+## The script
 If you want to try this out on your own, keep reading.
 
 ### How to use the script?
